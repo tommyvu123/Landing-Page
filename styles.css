@@ -1,0 +1,106 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  
+  header, nav, section, footer {
+    padding: 20px;
+  }
+  
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better contrast */
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  
+  .project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better contrast */
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  .social {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  .social a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  
+  .social img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
+  .skill {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  
+  .skill img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  
+  .skill p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
